@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.app-item-container {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 14px;
+  margin: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-item-container {
+    margin: 10px;
+  }
+}
+
+.image {
+  width: 90px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.app-name {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 0;
+}

@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85vw;
+  max-width: 1110px;
+}
+
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 40px;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.input-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #7b8794;
+  border-radius: 4px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-image-container {
+    max-width: 480px;
+  }
+}
+
+.search-bar {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #7b8794;
+  flex-grow: 1;
+}
+
+.search-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.list-main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding-left: 0px;
+}
+
+.project-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px;
+}
